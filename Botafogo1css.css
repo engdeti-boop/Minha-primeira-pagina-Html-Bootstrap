@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+
+header.masthead {
+  position: relative;
+  background: linear-gradient(135deg, #000000, #434343);
+  padding: 17rem 0;
+  color: white;
+  text-align: center;
+}
+
+header.masthead h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+header.masthead h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+.historia-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url("https://upload.wikimedia.org/wikipedia/commons/5/5d/Est%C3%A1dio_Nilton_Santos.jpg") center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia-header h1, 
+.historia-header p {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+section p {
+  line-height: 1.8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.idolos1{
+  position: relative;
+  background: linear-gradient(135deg, #000000, #434343);
+  padding: 17rem 0;
+  color: white;
+  text-align: center;
+}
+.carrosel {
+  max-width: 800px;      
+   height: 270px; 
+  margin: 0 auto;       
+  border-radius: 20px;   
+  overflow: hidden;      
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.carrosel img {
+  height: 400px;         
+  object-fit: cover;   
+}
+

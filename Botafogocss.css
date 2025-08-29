@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f2ef;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  max-height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.btn-dark {
+  background-color: #111;
+  border-color: #111;
+}
+
+.btn-dark:hover {
+  background-color: #000;
+  border-color: #000;
+}
+.logo1 {
+  width: 25px;
+  height: auto;
+}
+.navbar-custom {
+  background-color: #212529;
+}
+main {
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
+  flex: 1;                
+}
+.card-body {
+  text-align: center;
+}
+.card-title {
+  font-weight: bold;
+}
+
